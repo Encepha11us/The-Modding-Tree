@@ -1,7 +1,7 @@
 let modInfo = {
-	name: "The Alchemist's Student",
+	name: "The Alchemists Student",
 	author: "Encepha11us",
-	pointsName: "points",
+	pointsName: "material",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
@@ -42,6 +42,7 @@ function getPointGen() {
 		return new Decimal(0)
 
 	let gain = new Decimal(1)
+	if (getBuyableAmount('p', 11).gt(0)) gain = gain.add(buyableEffect('p', 11))
 	return gain
 }
 
