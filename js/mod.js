@@ -2,11 +2,11 @@ let modInfo = {
 	name: "The Alchemists Student",
 	author: "Encepha11us",
 	pointsName: "material",
-	modFiles: ["layers.js", "tree.js", "sulphur.js"], //other layers
+	modFiles: ["layers.js", "tree.js", "layers/sulphur.js"], //other layers
 
 	discordName: "",
 	discordLink: "",
-	initialStartPoints: new Decimal (10), // Used for hard resets and new players
+	initialStartPoints: new Decimal (1000), // Used for hard resets and new players
 	offlineLimit: 1,  // In hours
 }
 
@@ -43,6 +43,8 @@ function getPointGen() {
 
 	let gain = new Decimal(1)
 	if (getBuyableAmount('p', 11).gt(0)) gain = gain.add(buyableEffect('p', 11))
+	if (getBuyableAmount('s', 11).gt(0)) gain = gain.add(buyableEffect('s', 11))
+		
 	return gain
 }
 

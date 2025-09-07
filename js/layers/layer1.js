@@ -10,6 +10,8 @@
 //Sulphur 🜍
 //Consumed: Antimony 🜨
 //Buildables: (2 of first 6 zodiac)
+//Calcination (Aries ) ♈︎
+//Congelation (Taurus ) ♉︎
 //Build Cost: Sulphur 🜍
 //Upgrades: 
 //Upgrade Cost: Oil of Tartar 🜿
@@ -17,6 +19,8 @@
 //Oil of Tartar 🜿
 //Consumed: Antimony 🜨
 //Buildables: (2 of first 6 zodiac)
+// Fixation (Gemini ) ♊︎ (Solidification)
+// Solution (Cancer ) ♋︎
 //Build Cost: Oil of Tartar 🜿
 //Upgrades: 
 //Upgrade Cost: Alum 🝅
@@ -24,6 +28,8 @@
 //Alum 🝅
 //Consumed: Antimony 🜨
 //Buildables: (2 of first 6 zodiac)
+// Digestion (Leo ) ♌︎
+// Distillation (Virgo ) ♍︎
 //Build Cost: Alum 🝅
 //Upgrades: 
 //Upgrade Cost: Sulphur 🜍
@@ -38,6 +44,8 @@
 
 //Vitriol 🜖
 //Consumed: Sulphur 🜍, Antimony 🜨
+// Sublimation (Libra ) ♎︎
+// Separation (Scorpio ) ♏︎
 //B cost: (?) vitriol and saltpetre
 //U cost: alum
 
@@ -45,11 +53,15 @@
 
 //Saltpetre 🜕
 //Consumed: Oil of Tartar 🜿, Antimony 🜨
+// Ceration (Sagittarius ) ♐︎
+// Fermentation (Capricorn ) ♑︎ (Putrefaction)
 //B cost: saltpetre and sal ammoniac
 //U cost: sulphur
 
 //Sal Ammoniac 🜹
 //Consumed: Alum 🝅, Antimony 🜨
+// Multiplication (Aquarius ) ♒︎
+// Projection (Pisces ) ♓︎
 //B cost: sal ammoniac and vitriol
 //U cost: oil of tartar
 
