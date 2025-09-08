@@ -43,7 +43,7 @@ function getPointGen() {
 
 	let gain = new Decimal(1)
 	if (getBuyableAmount('p', 11).gt(0)) gain = gain.add(buyableEffect('p', 11))
-	if (getBuyableAmount('s', 11).gt(0)) gain = gain.add(buyableEffect('s', 11))
+	//if (getBuyableAmount('s_', 11).gt(0)) gain = gain.add(buyableEffect('s', 11))
 		
 	return gain
 }

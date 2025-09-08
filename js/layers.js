@@ -130,7 +130,7 @@ addLayer("p", {
             effect(x) {
                 let mult = new Decimal(1)
                 if (hasUpgrade("p", 11)) mult = mult.times(upgradeEffect("p", 11))
-                return new Decimal(1).mul(x).mul(mult)
+                return new Decimal(100).mul(x).mul(mult)
             },
             display() { 
                 let data = tmp[this.layer].buyables[this.id]
