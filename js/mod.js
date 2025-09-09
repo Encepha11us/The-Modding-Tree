@@ -2,7 +2,7 @@ let modInfo = {
 	name: "The Alchemists Student",
 	author: "Encepha11us",
 	pointsName: "material",
-	modFiles: ["layers.js", "tree.js", "layers/sulphur.js"], //other layers
+	modFiles: ["layers.js", "tree.js", "layers/sulphur.js", "layers/tartar.js"], //other layers
 
 	discordName: "",
 	discordLink: "",
